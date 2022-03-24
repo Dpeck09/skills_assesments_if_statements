@@ -2,3 +2,11 @@
 
 
 number = gets.chomp.to_i
+
+if number == 100
+  p 100
+elsif number == 99
+ p 99
+else
+  p 0
+end
